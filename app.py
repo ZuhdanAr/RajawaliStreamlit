@@ -64,7 +64,7 @@ def predict():
     education = edumapping[education]
     input_data = pd.DataFrame([[age, gender, education, income, purchase_frequency]], columns=['age', 'gender', 'education', 'income', 'purchase_frequency'])
     prediction = model.predict(input_data)
-    rounded_prediction = round(prediction[0], 1)
+    rounded_prediction = round(prediction[0], 3)
 
     st.subheader('Prediction')
     st.write(name + ', The predicted spending is: ')
