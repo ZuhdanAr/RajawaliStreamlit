@@ -63,7 +63,6 @@ def predict():
     gender = gendermapping[gender]
     education = edumapping[education]
     input_data = pd.DataFrame([[age, gender, education, income, purchase_frequency]], columns=['age', 'gender', 'education', 'income', 'purchase_frequency'])
-    st.write(input_data)
     prediction = model.predict(input_data)
     rounded_prediction = round(prediction[0], 1)
 
