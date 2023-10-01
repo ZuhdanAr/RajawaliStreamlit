@@ -36,6 +36,8 @@ To use this Customer Spending Prediction app, follow these steps:
 Please note that the accuracy of the predictions may vary based on the quality and representativeness of the dataset used for training and testing. Additionally, it is recommended to adapt and customize the code according to specific business requirements and datasets.
 Acknowledgements
 
+Streamlit link : https://rajawali-ds29.streamlit.app/
+
 We would like to thank the contributors and maintainers of the datasets used in this project for providing valuable data for analysis. Without their efforts, this project would not have been possible.
 
 Disclaimer: This app is for educational and demonstration purposes only. The predictions made by the model may not be accurate in real-world scenarios and should be used with caution.
